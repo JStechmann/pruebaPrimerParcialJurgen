@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Oswald:wght@300;500;700&display=swap');
+
+:root{
+    --circulos:#55bc69;
+    --footer:#191919;
+    --titulos:#444;
+    --contenido:#888;
+    --colorFooter:#6c6c6c;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    color: var(--contenido);
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--titulos);
+    font-weight: 700;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+header{
+    height: 75px;
+    background: var(--footer);
+    padding-top: 20px;
+}
+
+.hero{
+    padding: 50px 50px;
+    background-image: url("../img/bg-hero.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero h1{
+    color:#fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    background-color: var(--circulos);
+    color:#fff;
+    font-size: 20px;
+    margin: 5px;
+    padding-left: 4px;
+    border-radius: 50%;
+}
+
+
+
+footer{
+    height: 75px;
+    background: var(--footer);
+    padding-top: 20px;
+    color:var(--colorFooter);
+    letter-spacing: 2px;
+}
